@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/js/script.js">
+
+    <title>Decodificador</title>
+    
+</head>
+<body>
+    <section class="logo_alura">
+        <img src="./assets/img/logo_alura.svg" alt="logo alura">
+    </section>
+    <section class="decode">
+        <textarea name="texto" id="textoDecode" placeholder="Digite seu texto" cols="35" rows="8"></textarea>
+        <div class="aviso">
+            <img src="./assets/img/exclamacao.svg" alt="aviso letras minúsculas e sem caracteres especiais">
+            <span>Apenas letras minúsculas e sem acento.</span>
+        </div>
+        <div class="botoes">
+            <button id="btn-cripto">Criptografar</button>
+            <button id="btn-decripto">Descriptografar</button>
+        </div>
+    </section>
+    <section class="resultado">
+        <div id="divResultado">
+            <img src="./assets/img/reading-side.svg" alt="imagem aviso digite um texto">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>

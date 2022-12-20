@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 20px auto;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    gap: 50px;
+    background: linear-gradient(90deg, #e21ae2 0%, #046159 100%);
+    box-shadow: 10px 0 10px rgba(3, 0, 17, 0.9)
+}
+
+.logo_alura {
+    min-width: 120px;
+    text-align: center;
+    padding-top: 40px ;
+}
+
+.decode {
+    min-width: 680px;
+    padding-top: 140px;
+}
+
+#textoDecode {
+    font-size: 32px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;    
+}
+
+#textoDecode::placeholder {
+    color: white;    
+}
+
+.aviso {
+    margin-top: 20px;
+    color: white;
+}
+
+.aviso img {
+    width: 13px;
+    color: #ffffff;
+}
+
+.aviso span {
+    font-size: 14px;
+}
+
+.botoes {
+    margin: 16px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-cripto, #btn-decripto {
+    width: 328px;
+    font-size: 16px;
+    color: white;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid lightgray;
+    box-shadow: 10px 0 10px rgba(3, 0, 17, 0.9)
+}
+
+#btn-cripto {
+    background: linear-gradient(90deg, #7b1ae2 0%, #046159 100%);
+}
+
+#btn-decripto {
+    background: linear-gradient(90deg, #046159 0%, #7b1ae2 100%);
+}
+
+.resultado {
+    min-width: 400px;
+    padding-top: 80px;
+}
+
+.resultado div {
+    padding: 32px;
+    text-align: center;
+    color: white;
+}
+
+.resultado img {
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+.resultado h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.resultado p {
+    font-size: 16px;
+}
+
+#textoResultado {
+    font-size: 22px;
+    line-height: 28px;
+    padding-top: 20px;
+    max-width: 400px;
+}
+
+#btn-copiar {
+    width: 288px;
+    font-size: 16px;
+    color: white;
+    padding: 24px;
+    border-radius: 24px;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #7b1ae2 0%, #046159 100%);
+    border: 1px solid lightgray;
+    box-shadow: 10px 0 10px rgba(3, 0, 17, 0.9)
+}
+
